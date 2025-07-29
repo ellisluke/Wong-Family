@@ -1,12 +1,13 @@
 <script lang="ts">
     import { Carousel, Controls } from "flowbite-svelte";
-    
-    let {images, title, date, description} = $props();
+    import NavBar from "./NavBar.svelte";
+    let { images, title, date, description} = $props();
 </script>
 
+<NavBar></NavBar>
 <div class="page">
     <div class="document-container">
-        <Carousel {images} class="carousel">
+        <Carousel {images} style="width: 100%; height: 900px;">
             <Controls />
         </Carousel>
     </div>
@@ -18,7 +19,11 @@
 </div>
 
 <style>
+    img {
+        width: 100%;
+    }
     .page {
+        margin-top: 55px;
         width: 100%;
         display: flex;
         flex-wrap: wrap; /* Allows wrapping */  
@@ -27,21 +32,16 @@
     .document-container {
         width: 50%;
         height: 1000px;
-        background-color: blue;
-    }
-    .carousel {
-        width: 100%;
-        height: 100%;
-    }
-    .carousel img {
-        height: 100%;
+        /* background-color: blue; */
+        padding-top: 3%;
     }
 
     .document-details {
         padding-left: 2%;
         width: 48%;
         height: 500px;
-        background-color: red;
+        /* background-color: red; */
+        padding-top: 3%;
     }
 
     .title {
@@ -49,7 +49,7 @@
         height: 50px;
         font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
-        background-color: green;
+        /* background-color: green; */
         color: black;
     }
 
@@ -58,7 +58,7 @@
         height: 30px;
         font-family: 'Courier New', Courier, monospace;
         font-size: 15px;
-        background-color: orange;
+        /* background-color: orange; */
         color: gray;
     }
 
@@ -67,7 +67,7 @@
         height: 300px;
         font-family: 'Courier New', Courier, monospace;
         font-size: 16px;
-        background-color: purple;
+        /* background-color: purple; */
         color: black;
     }
 </style>
