@@ -4,7 +4,6 @@
     let { images, title, date, description} = $props();
 </script>
 
-<NavBar></NavBar>
 <div class="page">
     <div class="document-container">
         <Carousel {images} style="width: 100%; height: 900px;">
@@ -23,7 +22,6 @@
         width: 100%;
     }
     .page {
-        margin-top: 55px;
         width: 100%;
         display: flex;
         flex-wrap: wrap; /* Allows wrapping */  

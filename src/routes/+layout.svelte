@@ -1,6 +1,16 @@
 <script lang="ts">
+    import NavBar from "$lib/NavBar.svelte";
+
 	let { children } = $props();
     import "../app.css";
 </script>
+<NavBar></NavBar>
+<div class="body">
+    {@render children()}
+</div>
 
-{@render children()}
+<style>
+    .body {
+        margin-top: 55px;
+    }
+</style>
