@@ -1,5 +1,5 @@
 <script>
-    import Document from "$lib/Document.svelte";
+    import Document from "../Document.svelte";
     const images = [
         {
         alt: "Wong Sing Chew Bio Page 1",

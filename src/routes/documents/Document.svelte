@@ -1,6 +1,5 @@
 <script lang="ts">
     import { Carousel, Controls } from "flowbite-svelte";
-    import NavBar from "./NavBar.svelte";
     let { images, title, date, description} = $props();
 </script>
 
