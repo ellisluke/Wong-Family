@@ -30,11 +30,22 @@
     }
     .gallery-image {
         height: 300px;
-        width: 30%;
+        width: 32%;
         border: 2px black solid;
         margin-left: 1%;
         margin-top: 1%;
         float: left;
         overflow: hidden;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .gallery-image {
+            width: 49%;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .gallery-image {
+            width: 98%;
+        }
     }
 </style>
