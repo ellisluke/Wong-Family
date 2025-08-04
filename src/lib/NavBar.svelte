@@ -28,7 +28,8 @@
                 <ul id="nav" class="menu">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/documents">Documents</a></li>
+                    <li><a href="/documents">Docs</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
                 </ul>
             </div>
         {/if}
