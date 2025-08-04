@@ -1,9 +1,13 @@
 <script>
+    import Image from "$lib/Image.svelte";
+
     let {image, title, date, desc} = $props();
 </script>
 
 <div class="body">
-    <img src="{image}" alt="Image of {title}">
+    <div class="image-container">
+        <Image src={image} title={title} desc={desc} w=100 h=100></Image>
+    </div>
     <div class="text">
         <p class="title">{title}</p>
         <p class="date">{date}</p>
@@ -15,7 +19,7 @@
         width: 100%;
     }
 
-    img {
+    .image-container {
         width: 90%;
         margin-left: 5%;
     }
