@@ -2,7 +2,7 @@
     let { src, w, h, title, desc, } = $props();
 </script>
 
-<div style="width: {w}%; height: {h}%;">
+<div style="max-width: {w}%; max-height: {h}%; object-fit: cover;">
     <a href="{src}" >
         <img src="{src}" alt="{title}">
     </a>
@@ -13,5 +13,6 @@
     img {
         max-height: 100%;
         max-width: 100%;
+        object-fit: cover;
     }
 </style>
