@@ -1,8 +1,7 @@
 <script>
-    import NavBar from "$lib/NavBar.svelte";
     let {image, title, date, desc} = $props();
 </script>
-<NavBar></NavBar>
+
 <div class="body">
     <img src="{image}" alt="Image of {title}">
     <div class="text">
@@ -13,7 +12,6 @@
 </div>
 <style>
     .body {
-        margin-top: 65px;
         width: 100%;
     }
 
