@@ -19,7 +19,7 @@
     <p class="instructions">Please include the following in the email body accompanying each image.</p>
     <ul class="instructions">
         <li>- Title for the image</li>
-        <li>- Date of the image</li>
+        <li>- Date of the image (can be "Unknown" or rough estimate)</li>
         <li>- A description of the significance of the image and its circumstances</li>
         <li>- The names of all family members appearing in the image</li>
     </ul>
@@ -34,10 +34,9 @@
     <br>
     <p class="instructions">Please include the following in the email body accompanying each image.</p>
     <ul class="instructions">
-        <li>- Title for the image</li>
-        <li>- Date of the image</li>
-        <li>- A description of the significance of the image and its circumstances</li>
-        <li>- The names of all family members appearing in the image</li>
+        <li>- Title for the document</li>
+        <li>- Date of the document (can be "Unknown" or rough estimate)</li>
+        <li>- A description of the significance of the document and its circumstances</li>
     </ul>
     <br>
     <p class="other">All other suggestions, comments, or questions can be sent to INSERT@WEBSITE.COM</p>
