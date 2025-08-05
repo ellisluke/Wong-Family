@@ -23,6 +23,16 @@
 </div>
 
 <style>
+    p {
+        font-size: 18px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        width: 80%;
+    }
+    a {
+        text-decoration: underline;
+    }
     .gallery {
         width: 100%;
         height: 100%;
