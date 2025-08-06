@@ -33,7 +33,7 @@
     }
 
     img {
-        opacity: 40%;
+        opacity: 20%;
         position: relative;
         filter: blur(3px);   
     }
