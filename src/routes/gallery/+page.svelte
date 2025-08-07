@@ -1,12 +1,7 @@
 <script>
     import Image from "$lib/Image.svelte";
 
-    let gallery = [
-        {title: "Test", desc: "testing 123", src: "/images/documents/1930census.jpg" },
-        {title: "Test2", desc: "testing 123", src: "/images/documents/SecondGenWongs.jpg" },
-        {title: "Test3", desc: "testing 123", src: "/images/documents/1930census.jpg" },
-        {title: "Test4", desc: "testing 123", src: "/images/documents/SecondGenWongs.jpg" },
-    ]
+    import {gallery} from "./gallery.js";
 
 </script>
 
