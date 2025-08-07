@@ -26,10 +26,10 @@
         {#if open}
             <div class="hamburger-menu" transition:fly={{ y: -15 }}>
                 <ul id="nav" class="menu">
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="/about">ABOUT</a></li>
-                    <li><a href="/documents">DOCS</a></li>
-                    <li><a href="/gallery">GALLERY</a></li>
+                    <li><a href="/" onclick={() => {open = false}}>HOME</a></li>
+                    <li><a href="/about" onclick={() => {open = false}}>ABOUT</a></li>
+                    <li><a href="/documents" onclick={() => {open = false}}>DOCS</a></li>
+                    <li><a href="/gallery" onclick={() => {open = false}}>GALLERY</a></li>
                 </ul>
             </div>
         {/if}
@@ -104,6 +104,7 @@
         }
         .hamburger-nav {
             visibility: visible;
+            z-index: 100;
         }
         
     }   
