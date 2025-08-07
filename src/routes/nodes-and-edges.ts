@@ -14,6 +14,16 @@ export const initialNodes: Node[] = [
   { id: '7', position: { x: 250, y: 600 }, type: 'memberNode', data: { text: 'Kahn Wong', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
   { id: '8', position: { x: 550, y: 600 }, type: 'memberNode', data: { text: 'Sun Lin Wong', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
   { id: '9', position: { x: 800, y: 600 }, type: 'memberNode', data: { text: 'Sun Hop Wong', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
+
+  // First Gen Wongs Spouses
+  { id: '10', position: { x: -600, y: 900 }, type: 'memberNode', data: { text: 'Dai Sun Ching', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
+  { id: '11', position: { x: -350, y: 900 }, type: 'memberNode', data: { text: 'Tong Sing Ching', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
+  { id: '12', position: { x: -100, y: 900 }, type: 'memberNode', data: { text: 'Sun Lin Auyong', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
+  { id: '13', position: { x: 250, y: 900 }, type: 'memberNode', data: { text: 'Mew Lee Tong', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
+  { id: '14', position: { x: 550, y: 900 }, type: 'memberNode', data: { text: 'Edwin Luke', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
+  { id: '15', position: { x: 800, y: 900 }, type: 'memberNode', data: { text: 'Richard Luke', image: '/images/home-tree/TBD.jpg', top: true, right: true, bottom: true, left: false}},
+
+
 ];
 
 export const initialEdges: Edge[] = [
