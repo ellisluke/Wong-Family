@@ -23,10 +23,18 @@
     scale="1.1"></RightBanner>
 
 <LeftBanner 
+    title="Wong Ching Luke Cheer" 
+    desc="by Mew Lee Wong" 
+    link="/documents/WongChingLukeCheer" 
+    image="/images/documents/WongChingLukeCheer.jpg" 
+    offset="-350" 
+    scale="1"></LeftBanner>
+
+<RightBanner 
     title="1930 Census" 
     desc="A.K.'s answer to the U.S. Census" 
     link="/documents/1930Census" 
     image="/images/documents/1930census.jpg" 
     offset="-250" 
-    scale="2"></LeftBanner>
+    scale="2"></RightBanner>
 
