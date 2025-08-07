@@ -26,10 +26,10 @@
         {#if open}
             <div class="hamburger-menu" transition:fly={{ y: -15 }}>
                 <ul id="nav" class="menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/documents">Docs</a></li>
-                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/documents">DOCS</a></li>
+                    <li><a href="/gallery">GALLERY</a></li>
                 </ul>
             </div>
         {/if}
