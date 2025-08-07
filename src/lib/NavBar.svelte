@@ -74,7 +74,7 @@
 
     .desktop-nav a div {
         width: 15%;
-        min-width: 100px;
+        min-width: 90px;
         height: 55px;
         background-color: rgb(155, 0, 0);
         display: flex;
