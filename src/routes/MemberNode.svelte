@@ -22,8 +22,8 @@
   <Handle type="source" position={Position.Bottom} />
 {/if}
  
-<div class="member-node">
-    <img src={data.image} alt={data.text}>
+<div class="member-node nodrag">
+    <img src={data.image} alt={data.text} draggable="false">
   <p>{data.text}</p>
 </div>
 
