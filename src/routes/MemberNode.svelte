@@ -23,7 +23,7 @@
 {/if}
  
 <div class="member-node nodrag">
-    <img src={data.image} alt={data.text} draggable="false">
+    <img src={data.image} alt={data.text} draggable="false" style="max-width: {300 * data.scale}px; max-height {200 * data.scale}px;">
   <p>{data.text}</p>
 </div>
 
@@ -35,10 +35,5 @@
 
   .member-node p {
     text-align: center;
-  }
-
-  img {
-    max-width: 300px;
-    max-height: 200px;
   }
 </style>
