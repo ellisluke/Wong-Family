@@ -39,7 +39,7 @@ export const initialNodes: Node[] = [
   // AK Wong Second Gen Wongs
   { id: '16', position: { x: offset.AhKwo + 130, y: 1250 }, type: 'memberNode', data: { text: 'A.K. Wong Children', image: '/images/home-tree/AKWongs.jpg', top: true, right: false, bottom: true, left: false, scale: scale[1]}},
   { id: '17', position: { x: offset.AhKwo - 500, y: genY[2] }, type: 'memberNode', data: { text: 'Lavinia Wong', image: '/images/home-tree/LaviniaWong.jpg', top: true, right: false, bottom: false, left: false, scale: scale[2]}},
-  { id: '18', position: { x: offset.AhKwo - 200, y: genY[2] }, type: 'memberNode', data: { text: 'Alana Wong', image: '/images/home-tree/TBD.jpg', top: true, right: false, bottom: true, left: false, scale: scale[2]}},
+  { id: '18', position: { x: offset.AhKwo - 200, y: genY[2] }, type: 'memberNode', data: { text: 'Alana Wong', image: '/images/home-tree/AlanaWong.jpg', top: true, right: false, bottom: true, left: false, scale: scale[2]}},
   { id: '19', position: { x: offset.AhKwo + 100, y: genY[2] }, type: 'memberNode', data: { text: 'Fung Chun Wong', image: '/images/home-tree/TBD.jpg', top: true, right: false, bottom: false, left: false, scale: scale[2]}},
   { id: '20', position: { x: offset.AhKwo + 400, y: genY[2] }, type: 'memberNode', data: { text: 'Livingston Wong', image: '/images/home-tree/LivingstonWong.jpg', top: true, right: false, bottom: true, left: false, scale: scale[2]}},
   { id: '21', position: { x: offset.AhKwo + 700, y: genY[2] }, type: 'memberNode', data: { text: 'Alvin Wong', image: '/images/home-tree/AlvinWong.jpg', top: true, right: false, bottom: true, left: false, scale: scale[2]}},
