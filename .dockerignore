@@ -7,4 +7,7 @@ Dockerfile
 npm-debug.log
 coverage
 .nyc_output
-*.psd
+.psd
+.sh
+.key
+.key.pub
