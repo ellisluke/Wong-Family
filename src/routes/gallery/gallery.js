@@ -11,4 +11,7 @@ export const gallery = [
                 In this (1954?) photo, the actors Leonard Strong and Keye Luke were filming on the set of the movie "Hell's Half Acre", filmed in Honolulu Chinatown when they 
                 took this picture of Keye and his relatives.  The second image names the persons in the photo (reversed, it was on the back of the photo).   From Left to Right:  
                 Alvin, Keye Luke, A.K. Wong, Alana, Sun Lin Wong, Lavinia and Leonard Strong.  Alvin was only 12 or 13 in this photo!` },
+    {title: "A 2nd Gen Tailgate", src: "/images/gallery/LivingstonElvis.jpg", desc: "Livingston applies Bactine to Elvis’ mosquito bite on the set of “Paradise Hawaiian Style” (1966)" },
+    {title: "Livingston Wong aids Elvis Presley", src: "/images/gallery/AKSunHooSunMoiKahnSunLinTailgate.jpg", desc: "A 1978 gathering of the 2nd Generation." },
+    
 ]
