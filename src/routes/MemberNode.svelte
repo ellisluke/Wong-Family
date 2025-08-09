@@ -27,7 +27,9 @@
   <Modal basic>
     <Content>
       <div class="modal-container">
-        <img src={data.image} alt={data.text} draggable="false" class="modal-img">
+        <a href="{data.image}">
+          <img src={data.image} alt={data.text} draggable="false" class="modal-img">
+        </a>
       </div>
       <p class="modal-name">{data.text}</p>
     </Content>
@@ -64,5 +66,5 @@
   .modal-name {
     font-size: 30px;
   }
-  
+
 </style>
