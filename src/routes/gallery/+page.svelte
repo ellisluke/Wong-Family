@@ -5,7 +5,7 @@
 
 </script>
 
-<p>This gallery includes significant images (new and old) of Wong family members. 
+<p>This gallery includes significant or rare images (new and old) of Wong family members. 
     See the <a href="/about">about</a> page for instructions on how to submit images to this gallery.</p>
 
 
