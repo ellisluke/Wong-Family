@@ -9,7 +9,7 @@
     <p class="header">Contribute to This Project</p>
     <br>
     <p>
-        <strong>Gallery Submissions:</strong> send an email to gallery@WEBSITE.COM <br>
+        <strong>Gallery Submissions:</strong> send an email to <a class="email" href="mailto:gallery@punaluuwong.com">gallery@punaluuwong.com</a> <br>
         Each Gallery email submission should contain only one <i>high quality</i> scan or original of a <i>significant</i> image of our family members. 
         This is not a place to submit somewhat random images of "everyday" occurances. 
         These can be posted to our Facebook page.
@@ -25,7 +25,7 @@
     </ul>
     <br>
     <p>
-        <strong>Document Submissions:</strong> send an email to documents@WEBSITE.COM <br>
+        <strong>Document Submissions:</strong> send an email to <a class="email" href="mailto:documents@punaluuwong.com">documents@punaluuwong.com</a> <br>
         Each Document email submission should contain only one <i>high quality</i> scan or original of a <i>significant</i> historical document relevant to our family. 
         For now, all non-gallery media (i.e. images that don't contain a family member) can be submitted here.
         We will review each document for validity and significance before posting it here. 
@@ -39,7 +39,7 @@
         <li>- A description of the significance of the document and its circumstances</li>
     </ul>
     <br>
-    <p class="other">All other suggestions, comments, or questions can be sent to INSERT@WEBSITE.COM</p>
+    <p class="other">All other suggestions, comments, or questions can be sent to <a href="mailto:hello@punaluuwong.com" class="email">hello@punaluuwong.com</a> </p>
 </div>
 <div class="contribute-code">
     Contribute to the GitHub here:
@@ -90,6 +90,9 @@
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .email {
+        color: rgb(0, 140, 187);
     }
 
 
