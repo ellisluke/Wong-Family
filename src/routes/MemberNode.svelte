@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Position, useSvelteFlow, type NodeProps, Handle } from '@xyflow/svelte';
+  import { Modal, Content, Trigger } from "sv-popup";
  
   let { id, data }: NodeProps = $props();
  
@@ -23,8 +24,20 @@
 {/if}
  
 <div class="member-node nodrag">
-    <img src={data.image} alt={data.text} draggable="false" style="max-width: {300 * data.scale}px; max-height {200 * data.scale}px;">
-  <p>{data.text}</p>
+  <Modal basic>
+    <Content>
+      <div class="modal-container">
+        <a href="{data.image}">
+          <img src={data.image} alt={data.text} draggable="false" class="modal-img">
+        </a>
+      </div>
+      <p class="modal-name">{data.text}</p>
+    </Content>
+    <Trigger>
+      <img src={data.image} alt={data.text} draggable="false" style="max-width: {300 * data.scale}px; max-height {200 * data.scale}px;">
+      <p>{data.text}</p>
+    </Trigger>
+  </Modal>
 </div>
 
 <style>
@@ -33,7 +46,25 @@
     background-color: white;
   }
 
-  .member-node p {
+  p {
     text-align: center;
   }
+
+  .modal-img {
+    max-height: 500px;
+    max-width: 100%;
+  }
+
+  .modal-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-name {
+    font-size: 30px;
+  }
+
 </style>
